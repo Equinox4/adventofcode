@@ -2,7 +2,7 @@ use strict;
 use warnings;
 
 my $filename = 'input.txt';
-open(my $fh, "<", $filename) or die 'Can\'t open $filename';
+open(my $fh, '<', $filename) or die 'Can\'t open $filename';
 
 my $count_of_increasing = 0;
 my $previous_measurement = <$fh>;
