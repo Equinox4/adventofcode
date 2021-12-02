@@ -4,7 +4,7 @@ use warnings;
 use List::Util qw/ sum /;
 use constant WINDOW_SIZE => 3;
 
-my $filename = 'input.txt';
+my $filename = 'data/input.txt';
 open(my $fh, '<', $filename) or die 'Can\'t open $filename';
 
 my $count_of_increasing = 0;

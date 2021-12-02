@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-my $filename = 'input.txt';
+my $filename = 'data/input.txt';
 open(my $fh, '<', $filename) or die 'Can\'t open $filename';
 
 my $count_of_increasing = 0;
