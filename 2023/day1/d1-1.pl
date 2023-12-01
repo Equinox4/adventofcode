@@ -6,6 +6,7 @@ use warnings;
 
 use List::Util qw/ sum /;
 
+
 my @calibration_values = (0);
 
 open(my $fh, "<", "input.txt") or die "$!";
